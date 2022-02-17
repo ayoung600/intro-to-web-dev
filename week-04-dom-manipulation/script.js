@@ -2,7 +2,6 @@
 // When this function is called, it takes the values from the inputs and adds
 // them to the outputs.
 function fillOutputs() {
-
   // Get the adjective input element
   const adjectiveOneInput = document.getElementById('adjective-one-input');
   // Get the text from the input element
@@ -18,3 +17,4 @@ function fillOutputs() {
   // Make the output container element visible
   outputDiv.style.display = 'block';
 }
+alert("You Are About to Enter Madlib's Mad Libs");
