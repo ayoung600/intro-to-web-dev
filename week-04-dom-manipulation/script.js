@@ -1,6 +1,11 @@
 
 // When this function is called, it takes the values from the inputs and adds
-// them to the outputs.
+let name= prompt('What would you like to be called?');
+
+let message= 'Welcome ' +  name;
+
+console.log (message);
+document.write(message);// them to the outputs.
 function fillOutputs() {
   // Get the adjective input element
   const adjectiveOneInput = document.getElementById('adjective-one-input');
