@@ -4,6 +4,7 @@ let name= prompt('What would you like to be called?');
 
 let message= 'Welcome ' +  name;
 
+alert("You Are About to Enter Madlib's Mad Libs");
 console.log (message);
 document.write(message);// them to the outputs.
 function fillOutputs() {
@@ -27,6 +28,7 @@ const nounOne = nounOneInput.value;
 const nounOneOutput= document.getElementById('noun-one-output');
   // Get the adjective output element
 nounOneOutput.innerText = nounOne;
+
   const adjectiveOneOutput = document.getElementById('adjective-one-output');
   // Set the text of the input element
   adjectiveOneOutput.innerText = adjectiveOne;
@@ -35,5 +37,5 @@ nounOneOutput.innerText = nounOne;
   const outputDiv = document.getElementById('output');
   // Make the output container element visible
   outputDiv.style.display = 'block';
+
 }
-alert("You Are About to Enter Madlib's Mad Libs");
