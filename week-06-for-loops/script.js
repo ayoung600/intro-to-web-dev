@@ -86,7 +86,7 @@ function displayLongestWord() {
       }
     }
     const wordElement = document.createElement('li');
-    wordElement.innertext = longestWord;
+    wordElement.innerText = longestWord;
 
     longestWordElement.appendChild(wordElement);
     return longestWord;
