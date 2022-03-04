@@ -56,17 +56,40 @@ function displayLongWords() {
 
   function displayFirstWords() {
     const firstWordsElement = document.getElementById('first-words');
-    for(let i = string.startswith('a'); {
+    for(let i = 0; i < wordsArray.length; i++){
+      const word = wordsArray[i];
 
 
-      if(word = startswith('a')
+      if(word.startsWith('a')){
+
+
 
 
 
         const wordElement = document.createElement('li');
         wordElement.innerText = word;
         firstWordsElement.appendChild(wordElement);
+      }
   }
+}
+
+function displayLongestWord() {
+    const longestWordElement = document.getElementById('longest-word');
+
+    let longestWord = wordsArray[0];
+
+    for(let i = 1; i < wordsArray.length; i++){
+
+      if(wordsArray[i].length > longestWord.length) {
+          longestWord = wordsArray[i];
+
+      }
+    }
+    const wordElement = document.createElement('li');
+    wordElement.innertext = longestWord;
+
+    longestWordElement.appendChild(wordElement);
+    return longestWord;
 }
 
   function displayThirdWords() {
@@ -107,6 +130,7 @@ function displaySpeechStats() {
   displayLongWords();
   displayShortWords();
   displayFirstWords();
+  displayLongestWord();
   displayThirdWords();
   displayUncommonWords();
 
