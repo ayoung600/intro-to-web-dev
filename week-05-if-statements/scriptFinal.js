@@ -5,7 +5,7 @@ function submitAnswerOne() {
   const answerOneInput = document.getElementById('answer-one-input');
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
-
+}
   if(answerOne == 60) {
     alert("That's correct!");
     hide('question-one');
@@ -23,7 +23,7 @@ function submitAnswerTwo() {
   const answerTwoInput = document.getElementById('answer-two-input');
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
-
+}
   if(answerTwo == 3600) {
     alert("That's right!");
     hide('question-two');
@@ -42,6 +42,7 @@ function submitAnswerTwo() {
     // Get the number from answer two's input element
     const answerThree = answerThreeInput.value;
 
+}
     if(answerThree == 86400) {
       alert("Amazing!");
       hide('question-three');
@@ -60,6 +61,7 @@ function submitAnswerTwo() {
       // Get the text from answer one's input element
       const answerFour = answerFourInput.value;
 
+    }
       if(answerFour == 604800) {
         alert("Fantastic!");
         hide('question-four');
@@ -78,6 +80,7 @@ function submitAnswerTwo() {
         // Get the text from answer one's input element
         const answerFive = answerFiveInput.value;
 
+      }
         if(answerFive == 2628002) {
           alert("No way you got that without looking it up!");
           hide('question-five');
@@ -94,7 +97,7 @@ function submitAnswerTwo() {
           const answerSixInput = document.getElementById('answer-six-input');
           // Get the text from answer one's input element
           const answerSix = answerSixInput.value;
-
+        }
           if(answerSix == 31536000) {
             alert("Amazing! This is the largest answer you will have throughout the quiz.");
             hide('question-six');
@@ -112,7 +115,7 @@ function submitAnswerTwo() {
             const answerSevenInput = document.getElementById('answer-seven-input');
             // Get the text from answer one's input element
             const answerSeven = answerSevenInput.value;
-
+          }
             if(answerSeven == 1440) {
               alert("Seconds and Minutes!? You are unstoppable!");
               hide('question-seven');
@@ -130,7 +133,7 @@ function submitAnswerTwo() {
               const answerEightInput = document.getElementById('answer-eight-input');
               // Get the text from answer one's input element
               const answerEight = answerEightInput.value;
-
+            }
               if(answerEight == 10080) {
                 alert("Right! Those 45 minute episodes do not seem so long now.");
                 hide('question-Eight');
@@ -148,7 +151,7 @@ function submitAnswerTwo() {
                 const answerNineInput = document.getElementById('answer-nine-input');
                 // Get the text from answer one's input element
                 const answerNine = answerNineInput.value;
-
+              }
                 if(answerNine == 43800) {
                   alert("Correct! Yet months still fly by!");
                   hide('question-Nine');
@@ -166,7 +169,7 @@ function submitAnswerTwo() {
                   const answerTenInput = document.getElementById('answer-ten-input');
                   // Get the text from answer one's input element
                   const answerTen = answerTenInput.value;
-
+                }
                   if(answerTen == 525600) {
                     alert("You did it! You aged so many seconds just from this quiz.");
                     hide('question-Ten');
@@ -185,5 +188,4 @@ function show(id) {
 function hide(id) {
   const element = document.getElementById(id);
   element.style.display = 'none';
-}
 };
