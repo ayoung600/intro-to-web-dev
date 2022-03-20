@@ -14,7 +14,7 @@ function submitAnswerOne() {
   } else {
     alert('Longest minute in history! Lower')
   }
-
+}
 // When this function is called, it takes the user's answer to the second
 // question and uses if statements to check whether it's correct.
 function submitAnswerTwo() {
@@ -32,6 +32,7 @@ function submitAnswerTwo() {
   } else {
     alert('multiply 60 and 60 trust me.')
   }
+}
 
   // When this function is called, it takes the user's answer to the second
   // question and uses if statements to check whether it's correct.
@@ -41,7 +42,6 @@ function submitAnswerTwo() {
     // Get the number from answer two's input element
     const answerThree = answerThreeInput.value;
 
-}
     if(answerThree == 86400) {
       alert("Amazing!");
       hide('question-three');
@@ -51,7 +51,7 @@ function submitAnswerTwo() {
     } else {
       alert('The answer is lower.')
     }
-
+  }
     // When this function is called, it takes the user's answer to the first
     // question and uses if statements to check whether it's correct.
     function submitAnswerFour() {
@@ -60,7 +60,6 @@ function submitAnswerTwo() {
       // Get the text from answer one's input element
       const answerFour = answerFourInput.value;
 
-    }
       if(answerFour == 604800) {
         alert("Fantastic!");
         hide('question-four');
@@ -70,6 +69,7 @@ function submitAnswerTwo() {
       } else {
         alert('Thinking Big but lower.')
       }
+    }
 
       // When this function is called, it takes the user's answer to the first
       // question and uses if statements to check whether it's correct.
@@ -79,7 +79,7 @@ function submitAnswerTwo() {
         // Get the text from answer one's input element
         const answerFive = answerFiveInput.value;
 
-      }
+
         if(answerFive == 2628002) {
           alert("No way you got that without looking it up!");
           hide('question-five');
@@ -89,6 +89,7 @@ function submitAnswerTwo() {
         } else {
           alert('Thinking a little too big but lower.')
         }
+      }
         // When this function is called, it takes the user's answer to the first
         // question and uses if statements to check whether it's correct.
         function submitAnswerSix() {
@@ -96,7 +97,7 @@ function submitAnswerTwo() {
           const answerSixInput = document.getElementById('answer-six-input');
           // Get the text from answer one's input element
           const answerSix = answerSixInput.value;
-        }
+
           if(answerSix == 31536000) {
             alert("Amazing! This is the largest answer you will have throughout the quiz.");
             hide('question-six');
@@ -106,6 +107,7 @@ function submitAnswerTwo() {
           } else {
             alert('Now you are guessing, which is fair.')
           }
+        }
 
           // When this function is called, it takes the user's answer to the first
           // question and uses if statements to check whether it's correct.
@@ -114,7 +116,7 @@ function submitAnswerTwo() {
             const answerSevenInput = document.getElementById('answer-seven-input');
             // Get the text from answer one's input element
             const answerSeven = answerSevenInput.value;
-          }
+
             if(answerSeven == 1440) {
               alert("Seconds and Minutes!? You are unstoppable!");
               hide('question-seven');
@@ -124,6 +126,7 @@ function submitAnswerTwo() {
             } else {
               alert('15th century!!')
             }
+          }
 
             // When this function is called, it takes the user's answer to the first
             // question and uses if statements to check whether it's correct.
@@ -132,7 +135,7 @@ function submitAnswerTwo() {
               const answerEightInput = document.getElementById('answer-eight-input');
               // Get the text from answer one's input element
               const answerEight = answerEightInput.value;
-            }
+
               if(answerEight == 10080) {
                 alert("Right! Those 45 minute episodes do not seem so long now.");
                 hide('question-Eight');
@@ -142,6 +145,7 @@ function submitAnswerTwo() {
               } else {
                 alert('Only a little over 10k')
               }
+            }
 
               // When this function is called, it takes the user's answer to the first
               // question and uses if statements to check whether it's correct.
@@ -150,7 +154,7 @@ function submitAnswerTwo() {
                 const answerNineInput = document.getElementById('answer-nine-input');
                 // Get the text from answer one's input element
                 const answerNine = answerNineInput.value;
-              }
+
                 if(answerNine == 43800) {
                   alert("Correct! Yet months still fly by!");
                   hide('question-Nine');
@@ -160,6 +164,7 @@ function submitAnswerTwo() {
                 } else {
                   alert('think of four weeks and some change.')
                 }
+              }
 
                 // When this function is called, it takes the user's answer to the first
                 // question and uses if statements to check whether it's correct.
@@ -168,7 +173,7 @@ function submitAnswerTwo() {
                   const answerTenInput = document.getElementById('answer-ten-input');
                   // Get the text from answer one's input element
                   const answerTen = answerTenInput.value;
-                }
+
                   if(answerTen == 525600) {
                     alert("You did it! You aged so many seconds just from this quiz.");
                     hide('question-Ten');
@@ -178,6 +183,7 @@ function submitAnswerTwo() {
                   } else {
                     alert('just a little over half a million.')
                   }
+                }
 // Helper function that takes an ID and shows the element with that ID.
 function show(id) {
   const element = document.getElementById(id);
@@ -188,5 +194,3 @@ function hide(id) {
   const element = document.getElementById(id);
   element.style.display = 'none';
 };
-}
-}
