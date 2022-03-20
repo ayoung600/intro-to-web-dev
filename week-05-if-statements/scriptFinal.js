@@ -138,8 +138,8 @@ function submitAnswerTwo() {
 
               if(answerEight == 10080) {
                 alert("Right! Those 45 minute episodes do not seem so long now.");
-                hide('question-Eight');
-                show('question-Nine');
+                hide('question-eight');
+                show('question-nine');
               } else if(answerEight < 10080) {
                 alert('Larger, over 10k');
               } else {
@@ -157,8 +157,8 @@ function submitAnswerTwo() {
 
                 if(answerNine == 43800) {
                   alert("Correct! Yet months still fly by!");
-                  hide('question-Nine');
-                  show('question-Ten');
+                  hide('question-nine');
+                  show('question-ten');
                 } else if(answerNine < 43800) {
                   alert('Higher!');
                 } else {
@@ -176,7 +176,7 @@ function submitAnswerTwo() {
 
                   if(answerTen == 525600) {
                     alert("You did it! You aged so many seconds just from this quiz.");
-                    hide('question-Ten');
+                    hide('question-ten');
                     show('done');
                   } else if(answerTen < 525600) {
                     alert('Way higher');
