@@ -17,6 +17,14 @@ const nounOneInput= document.getElementById('noun-one-input');
 
 const nounOne = nounOneInput.value;
 
+const adjectiveThreeInput= document.getElementById('adjective-three-input');
+
+const adjectiveThree = adjectiveThreeInput.value;
+
+const nounTwoInput= document.getElementById('noun-two-input');
+
+const nounTwo = nounTwoInput.value;
+
   const adjectiveOneInput = document.getElementById('adjective-one-input');
   // Get the text from the input element
   const adjectiveOne = adjectiveOneInput.value;
@@ -28,6 +36,14 @@ const nounOne = nounOneInput.value;
 const nounOneOutput= document.getElementById('noun-one-output');
   // Get the adjective output element
 nounOneOutput.innerText = nounOne;
+
+const adjectiveThreeOutput = document.getElementById('adjective-three-output');
+
+adjectiveThreeOutput.innerText = adjectiveThree;
+
+const nounTwoOutput= document.getElementById('noun-two-output');
+  // Get the adjective output element
+nounTwoOutput.innerText = nounTwo;
 
   const adjectiveOneOutput = document.getElementById('adjective-one-output');
   // Set the text of the input element

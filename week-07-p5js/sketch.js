@@ -12,9 +12,9 @@ function setup() {
 function draw() {
 
   // Draw a dark gray background.
-  background(65);
+  background('#fae');
+describe('canvas with pink background');
   noStroke();
-
   // Change the fill color to white.
   fill(255);
 
@@ -39,23 +39,23 @@ function draw() {
   rect(300, rectX, 10, 50);
 
 ellipseY += ySpeed;
-if (ellipseY > height) {
+if (ellipseY > height || ellipseY < 60) {
   ySpeed *= -1;
 }
 rectY += ySpeed;
-if (rectY > height) {
+if (rectY > height || rectY < 60) {
   ySpeed *= -1;
 }
 rectX += ySpeed;
-if (rectX > height) {
+if (rectX > height || rectX < 60) {
   ySpeed *= -1;
 }
 triangleY += ySpeed;
-if (triangleY > height) {
+if (triangleY > height || triangleY < 60) {
   ySpeed *= -1;
 }
 triangleX += ySpeed;
-if (triangleX > height){
+if (triangleX > height || triangleX < 60){
   ySpeed *= -1;
 
   }
