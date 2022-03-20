@@ -5,7 +5,6 @@ function submitAnswerOne() {
   const answerOneInput = document.getElementById('answer-one-input');
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
-}
   if(answerOne == 60) {
     alert("That's correct!");
     hide('question-one');
@@ -23,7 +22,7 @@ function submitAnswerTwo() {
   const answerTwoInput = document.getElementById('answer-two-input');
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
-}
+
   if(answerTwo == 3600) {
     alert("That's right!");
     hide('question-two');
@@ -189,3 +188,5 @@ function hide(id) {
   const element = document.getElementById(id);
   element.style.display = 'none';
 };
+}
+}
