@@ -16,7 +16,7 @@ function draw() {
 describe('canvas with pink background');
   noStroke();
   // Change the fill color to white.
-  fill (255);
+  fill(random(255), random(255), random(255));
 
   // Draw the top circle part of the skull.
   ellipse(250, ellipseY, 275, 180);
