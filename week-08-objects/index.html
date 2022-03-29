@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Task List</title>
+    <title>Favorite Kanye West Songs</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
   </head>
   <body onload="loadContent();">
-    <h1>Task List</h1>
+    <h1>Favorite Kanye West Songs</h1>
     <div id="table-container"></div>
     <hr>
-    <p>Shortest task: <span id="shortest-task"></span></p>
+    <p>Shortest song: <span id="shortest-song"></span></p>
     <hr>
     <div>
-      <h1>New Task</h1>
+      <h1>New Song</h1>
       Label: <input type="text" id="label-input"/>
       <br><br>
-      Time: <input type="number" id="time-input" />
+      Time: <input type="text" id="time-input" />
       <br><br>
-      <button onclick="addNewTask();">Add</button>
+      Rating: <input type="text" id="rating-input" />
+      <br><br>
+      <button onclick="addNewSong();">Add</button>
     </div>
   </body>
 </html>
