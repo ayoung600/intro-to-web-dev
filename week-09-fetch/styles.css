@@ -1,3 +1,15 @@
+<style>
+h1{
+
+}
+
+body {
+  background-color: green;
+  font-family: copperplate;
+  color: DarkRed;
+  font-size: large;
+
+}
 #images {
   width: 500px;
   border: thin solid black;
