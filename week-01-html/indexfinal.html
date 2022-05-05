@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World</title>
+    <link rel="stylesheet" href="stylesfp.css">
+    <script src="scriptfp.js"></script>
   </head>
   <body>
+      <title>Adam's Final Page</title>
     <h1>Hello Everyone!</h1>
-    <ins>This is Adam's Page!</ins>
-    <p>Just working around and seeing what I can do!</p>
-    <b>I never did any coding in my life! This is wild!</b>
+    <ins>This my final page!</ins>
+    <p>A lot of new knowledge throughout this semester!</p>
+    <b>Big thanks for visiting!
+       I hope everyone has an amazing rest of their week.
+       Big things to still come this year. Just keep moving.</b>
     <br></br>
     <b>Here is my Instagram Page</b>
     <br></br>
     <a href=http://www.instagram.com/lazystyleclothing/>Lazy Style Clothing</a>
     <br></br>
-    <b>Here is a picture of a cat!</b>
+    <b>Here is a picture of a cat to the right!</b>
     <br></br>
     <img src="https://www.petmd.com/sites/default/files/styles/article_image/public/paralysis-cats.jpg?itok=fnsr0ro0" align="right">
+    <b>Here is a list of some of my favorite MF DOOM songs.</b>
+    <body onload="loadContent();">
+      <h1>Favorite MF DOOM Songs</h1>
+      <div id="table-container"></div>
+      <hr>
+      <p>Shortest song: <span id="shortest-song"></span></p>
+      <hr>
+      <div>
+        <h1>New Song</h1>
+        Label: <input type="text" id="label-input"/>
+        <br><br>
+        Time: <input type="text" id="time-input" />
+        <br><br>
+        Rating: <input type="text" id="rating-input" />
+        <br><br>
+        <button onclick="addNewSong();">Add</button>
+      </div>
+    </body>
   </body>
 </html>
